@@ -5,10 +5,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./styles/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-slate-400 text-3xl font-bold underline">Hello world!</h1>
-    <div class="flex">
-      <p class="hover:text-sky-200">Test 123</p>
+  <!-- Introduction -->
+  <body class="bg-stone-300 dark:bg-black">
+    <div class="container m-auto mt-24 md:mt-32">
+      <h1 class="text-4xl md:text-6xl text-black dark:text-white text-center">
+        Hi, this is Supersina
+      </h1>
+      <p class="text-gray-700 dark:text-gray-400 text-center mt-3">
+        An enthousiastic and aspiring web developer
+      </p>
+    </div>
+    <div class="container m-auto mt-10">
+      <img
+        class="w-1/3 md:w-1/4 m-auto rounded-full"
+        src="./img/me2.png"
+        alt="Supersina"
+      />
+      <div class="container m-auto mt-10">
+        <p class="text-gray-700 dark:text-gray-400 text-center mt-3">
+          I set out on the path of frontend development first with simple html
+          and css. When that wasn't enough for my vision of building an alarm
+          system for my home, I moved forward with Java Script and eventually
+          React. I was fortunate to have a senior developer nearby as a point of
+          contact who steered me away from aberrations and scolded me when my
+          code slipped away. Over time, I learned to code cleanly, build APIs,
+          create and include databases. In addition to React, tools like Chakra
+          UI and Tailwind CSS came in handy.
+        </p>
+      </div>
+    </div>
+
+    <!-- My Work Section -->
+    <div
+      class="container m-auto mt-16 sm:mt-28 mb-10 md:w-4/5 lg:w-2/3 xl:w-1/2"
+    >
+      <h2 class="text-2xl md:text-4xl text-black dark:text-white text-center">
+        My Work
+      </h2>
+      <div class="grid sm:grid-cols-1 md:grid-cols-1 gap-6 mx-auto mt-8">
+        <!-- A Project -->
+        <div class="p-4">
+          <img
+            class="rounded-lg border-y-2"
+            src="./img/alarmsystem.png"
+            alt="Alarm System"
+          />
+          <div class="mt-4">
+            <span
+              class="inline font-bold text-gray-700 dark:text-gray-400 text-center"
+            >
+              Alarm System
+            </span>
+            <p class="inline text-gray-700 dark:text-gray-400 text-center mt-3">
+              The project that motivated me to start coding. This is the
+              frontend part of my home's alarm system. My RasperryPi is sending
+              sensor codes to a database whenever doors in my home open or
+              close. In the frontend the user can see when a door was opened or
+              closed. He can also register new alarm systems and sensors. Of
+              course, the user has to be logged in to see all of his private
+              alarm systems information.
+            </p>
+          </div>
+          <div class="mt-2">
+            <span
+              class="inline font-bold text-gray-700 dark:text-gray-400 text-center"
+            >
+              Stack:
+            </span>
+            <div class="flex flex-row flex-wrap">
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                HTML
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                CSS
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                React
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                Chakra-UI
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                Prisma
+              </div>
+            </div>
+            <div class="mt-4 mx-2">
+              <a href="https://github.com/supersina/alarmanlage-ui">
+                <img
+                  class="inline w-10"
+                  src="./img/GitHub-Mark-Light-64px.png"
+                  alt="GitHub Logo"
+                />
+                <p
+                  class="inline text-gray-700 dark:text-gray-400 text-center ml-2"
+                >
+                  See on GitHub
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- A Project -->
+        <div class="p-4 mt-10">
+          <img
+            class="rounded-lg border-y-2 border-white"
+            src="./img/zahniweb.png"
+            alt="Dentist Page"
+          />
+          <div class="mt-4">
+            <span
+              class="inline font-bold text-gray-700 dark:text-gray-400 text-center"
+            >
+              Dentists Webpage
+            </span>
+            <p class="inline text-gray-700 dark:text-gray-400 text-center mt-3">
+              A near to real world project. I wanted to practice on realistic
+              projects, so I built a
+            </p>
+            <a
+              class="inline text-gray-700 dark:text-gray-400 text-center underline mt-3"
+              href="https://roxis-praxis.netlify.app"
+              >website</a
+            >
+            <p class="inline text-gray-700 dark:text-gray-400 text-center mt-3">
+              for a friend who is a dentist. The website has multiple pages on
+              which I played around with custom containers, caroussels, grids
+              and many more. It even has a contact form.
+            </p>
+          </div>
+          <div class="mt-2">
+            <span
+              class="inline font-bold text-gray-700 dark:text-gray-400 text-center"
+            >
+              Stack:
+            </span>
+            <div class="flex flex-row flex-wrap">
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                HTML
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                CSS
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                React
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                Chakra-UI
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                PostgreSQL
+              </div>
+            </div>
+            <div class="mt-4 mx-2">
+              <a href="https://github.com/supersina/zahniweb">
+                <img
+                  class="inline w-10"
+                  src="./img/GitHub-Mark-Light-64px.png"
+                  alt="GitHub Logo"
+                />
+                <p
+                  class="inline text-gray-700 dark:text-gray-400 text-center ml-2"
+                >
+                  See on GitHub
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- A Project -->
+        <div class="p-4 mt-10">
+          <img
+            class="rounded-lg border-y-2 border-white"
+            src="./img/aboutme.png"
+            alt="About Me page"
+          />
+          <div class="mt-4">
+            <span
+              class="inline font-bold text-gray-700 dark:text-gray-400 text-center"
+            >
+              About Me Page
+            </span>
+            <p class="inline text-gray-700 dark:text-gray-400 text-center mt-3">
+              That's where we are. I wanted to try Tailwind CSS. And I wanted to
+              have something to show you so you know who I am and what I do. I
+              therefore decided to built a page about me. I realised Tailwind is
+              so basic but so powerful! And it is great for not losing the feel
+              for the basics - html and css - while using all the frameworks
+              like React and Chakra UI.
+            </p>
+          </div>
+          <div class="mt-2">
+            <span
+              class="inline font-bold text-gray-700 dark:text-gray-400 text-center"
+            >
+              Stack:
+            </span>
+            <div class="flex flex-row flex-wrap">
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                HTML
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                CSS
+              </div>
+              <div
+                class="flex-initial w-40 mx-2 text-gray-300 text-center mt-3 bg-blue-900 rounded-lg"
+              >
+                Tailwind CSS
+              </div>
+            </div>
+            <div class="mt-4 mx-2">
+              <a href="https://github.com/supersina/about-me">
+                <img
+                  class="inline w-10"
+                  src="./img/GitHub-Mark-Light-64px.png"
+                  alt="GitHub Logo"
+                />
+                <p
+                  class="inline text-gray-700 dark:text-gray-400 text-center ml-2"
+                >
+                  See on GitHub
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
