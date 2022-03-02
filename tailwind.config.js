@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: { DEFAULT: "2rem", sm: "0rem", md: "2rem" },
     },
   },
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
